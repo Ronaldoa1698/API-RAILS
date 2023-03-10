@@ -51,3 +51,6 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+#Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.8.0'
