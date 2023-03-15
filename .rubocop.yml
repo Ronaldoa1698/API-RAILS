@@ -5,3 +5,8 @@ Metrics/MethodLength:
   Exclude:
     - 'bin/bundle'
 
+  Style/Documentation:
+    Enabled: false
+
+  Style/ClassAndModuleChildren:
+    Enabled: false
