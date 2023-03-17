@@ -27,3 +27,5 @@ Things you may want to cover:
       - bundle exec rubocop
 
 * Run rspec to run the test suite
+    
+        - bundle exec rspec
