@@ -54,3 +54,6 @@ end
 
 #Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.8.0'
+
+# Generate JSON in an object-oriented and convention-driven manner
+gem 'active_model_serializers', '~> 0.10.0'
