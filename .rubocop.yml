@@ -10,3 +10,6 @@ Metrics/MethodLength:
 
   Style/ClassAndModuleChildren:
     Enabled: false
+
+  Sytle/IfUnlessModifier:
+    Enabled: false
