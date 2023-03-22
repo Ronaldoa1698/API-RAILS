@@ -201,6 +201,7 @@ GEM
     ruby-progressbar (1.11.0)
     shoulda-matchers (5.0.0)
       activesupport (>= 5.2.0)
+    swagger-blocks (3.0.0)
     thor (1.2.1)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -227,6 +228,7 @@ DEPENDENCIES
   rspec-rails (~> 5.0.1)
   rubocop
   shoulda-matchers (~> 5.0.0)
+  swagger-blocks
   tzinfo-data
 
 RUBY VERSION

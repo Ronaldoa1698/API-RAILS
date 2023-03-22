@@ -12,15 +12,15 @@ RSpec.describe Renderer, type: :controller do
   end
 
   describe 'GET show' do
-    let(:resource) { create(:user) }
+    let(:resource) { create(:dummy, name: 'sample') }
 
     it 'renders resource with render_object method' do
       get :show, params: { id: resource.id }
 
-      resource_fields = { 'id' => resource.id, 'email' => resource.email }
+      data_fields = { 'id' => resource.id, 'name' => resource.name }
 
       expect(response.status).to eq(200)
-      expect(load_body(response)['user']).to include(resource_fields)
+      expect(load_body_data(response)).to include(data_fields)
     end
   end
 
