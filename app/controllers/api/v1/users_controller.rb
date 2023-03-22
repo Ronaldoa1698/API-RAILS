@@ -1,5 +1,6 @@
 class Api::V1::UsersController < Api::V1::BaseController
 
+  include Renderer
   def index
     @users = User.all
     render json: @users
@@ -12,10 +13,10 @@ class Api::V1::UsersController < Api::V1::BaseController
   def create
     @user = User.new(user_params)
       if @user.save
-        return render json:@user, status: :created
+        return render_object(@user, :created)
       end
 
-    render json: @user.errors, status: :unprocessable_entity
+    render_errors(@user.errors)
   end
 
 

@@ -13,3 +13,7 @@ Metrics/MethodLength:
 
   Sytle/IfUnlessModifier:
     Enabled: false
+
+  Metrics/BlockLength:
+    Exclude:
+      - 'spec/**/*'
