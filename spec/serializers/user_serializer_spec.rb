@@ -2,7 +2,7 @@
 require 'rails_helper'
 
 RSpec.describe UserSerializer, type: :serializer do
-  let(:user) { FactoryBot.build(:user, email: 'user@duetcode.io') }
+  let(:user) {build(:user, email: 'user@duetcode.io') }
   let(:serialized_user) { described_class.new(user).as_json }
 
   subject { serialized_user[:user] }
