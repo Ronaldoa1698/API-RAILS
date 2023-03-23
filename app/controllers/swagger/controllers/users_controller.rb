@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 
 class Swagger::Controllers::UsersController
   include Swagger::Blocks

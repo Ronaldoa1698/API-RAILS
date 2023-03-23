@@ -1,4 +1,4 @@
-class ApidocsController < ApplicationController::Base
+class ApidocsController < ActionController::Base
 
   include Swagger::Blocks
   swagger_root do
@@ -27,7 +27,6 @@ class ApidocsController < ApplicationController::Base
     Swagger::Models::UserInput,
     self
   ].freeze
-
 
 
   def index
