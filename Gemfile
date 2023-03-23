@@ -57,3 +57,6 @@ gem 'devise', '~> 4.8.0'
 
 # Generate JSON in an object-oriented and convention-driven manner
 gem 'active_model_serializers', '~> 0.10.0'
+
+# Define and serve live-updating Swagger JSON for Ruby apps.
+gem 'swagger-blocks'
