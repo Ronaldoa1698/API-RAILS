@@ -31,6 +31,7 @@ class ApidocsController < ActionController::Base
     Swagger::Controllers::OauthController,
     Swagger::Models::OauthTokenInput,
     Swagger::Models::OauthToken,
+
     self
   ].freeze
 
