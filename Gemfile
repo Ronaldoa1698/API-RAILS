@@ -63,3 +63,6 @@ gem 'swagger-blocks'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS)
 gem 'rack-cors'
+
+# Rails engine to introduce OAuth 2 provider functionality
+gem 'doorkeeper'

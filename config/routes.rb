@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
-
   root 'swagger#index'
 
   get '/apidocs', to: 'apidocs#index'
   resources :swagger, only: [:index]
-
 
   devise_for :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -16,6 +14,7 @@ Rails.application.routes.draw do
       resources :users, only: [:create, :index, :show]
     end
   end
+
 
 
 end
