@@ -18,3 +18,7 @@ Metrics/MethodLength:
     Exclude:
       - 'spec/**/*'
       - 'app/controllers/swagger/**/*'
+
+  AllCops:
+    - 'db/migrate/**/*'
+    - 'db/schema.rb'
